@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/com.heima.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:text="@string/app_title"
+		style="@style/TitleBarStyle"
+        />
+	<com.heima.mobilesafe.view.SettingItemView
+	    itheima:backBoo="first"
+	    android:id="@+id/siv_setting_update"
+	    android:layout_marginTop="10dp"
+	    itheima:sivText="自动更新设置"
+		android:layout_width="match_parent"	    
+		android:layout_height="wrap_content"
+	    >
+	</com.heima.mobilesafe.view.SettingItemView>
+	<com.heima.mobilesafe.view.SettingItemView
+	    itheima:backBoo="last"
+	    android:id="@+id/siv_setting_black_service"
+	    itheima:sivText="黑名单拦截设置"
+		android:layout_width="match_parent"	    
+		android:layout_height="wrap_content"
+	    >
+	</com.heima.mobilesafe.view.SettingItemView>
+		<com.heima.mobilesafe.view.SettingItemView
+	    itheima:backBoo="first"
+	    android:id="@+id/siv_setting_location_show"
+	    android:layout_marginTop="10dp"
+	    itheima:sivText="归属地显示设置"
+		android:layout_width="match_parent"	    
+		android:layout_height="wrap_content"
+	    >
+	</com.heima.mobilesafe.view.SettingItemView>
+	<com.heima.mobilesafe.view.SettingItemView
+	    android:id="@+id/siv_setting_location_style"
+	    itheima:backBoo="last"
+	    itheima:sivText="归属地风格设置"
+		android:layout_width="match_parent"	    
+		android:layout_height="wrap_content"
+	    >
+	</com.heima.mobilesafe.view.SettingItemView>
+</LinearLayout>

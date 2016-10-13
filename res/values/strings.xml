@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileSafa</string>
+    <string name="version">版本号：1.0</string>
+    <string name="app_title">设置中心</string>
+    
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <declare-styleable name="SettingItemView">
+         <!--  设置Title -->
+          <attr name="sivText" format="string" />
+          
+     	<!--      设置背景Emnu -->
+            <attr name="backBoo">
+            <enum name="first" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="last" value="2" />
+        </attr>
+          </declare-styleable>
+</resources>

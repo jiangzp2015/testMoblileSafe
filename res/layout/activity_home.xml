@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue_bkg"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_logo"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/heima"
+        />
+    <LinearLayout 
+        android:layout_toRightOf="@id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:text="黑马程序员安全卫士"
+            android:textSize="20sp"
+            android:textStyle="bold"           
+            />
+     	<com.heima.mobilesafe.view.MarqueeTextView 
+    	android:layout_marginTop="15dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:text="黑马程序员安全卫士，时刻保护您的手机安全. http://www.itheima.com"
+        android:textSize="16sp"
+        android:textColor="#ff0000"
+	     />
+        
+    </LinearLayout>
+    <ImageView 
+        android:src="@drawable/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_setting"
+        android:background="@drawable/setting_selector"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        
+        />
+</RelativeLayout>
+<GridView 
+    android:id="@+id/gv_home"
+    android:verticalSpacing="8dp"
+    android:horizontalSpacing="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="2"
+    ></GridView>
+</LinearLayout>
